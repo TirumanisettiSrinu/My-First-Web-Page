@@ -1,37 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
-
-.Main-heading{
-    text-align: center;
-    font-family: "Roboto";
-
-}
-
-.para{
-    text-align: center;
-}
-
-.container{
-    text-align: center;
-    border-radius:24px ;
-    border-radius:24px ;
-    padding: 30px;
-    background-color: white;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 .bg-container {
-    background-image: url('https://img.freepik.com/free-photo/full-shot-woman-travel-concept_23-2149153259.jpg?ga=GA1.1.455414450.1727372522&semt=ais_hybrid');
-    background-size: 100% 100%; 
-    background-repeat: no-repeat; 
-    background-position: center;
-    height: 100vh; 
-    border-radius:24px ;
+    background-image: url("https://img.freepik.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?t=st=1734570788~exp=1734574388~hmac=7e140c8614d47cc41f14aa855342b7648bf34201bdbb3b4fd60b150011768974&w=1060");
+    height: 100vh;
+    background-size: cover;
 }
-
-.button{
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.main-heading {
+    font-family: "Roboto";
+}
+.paragraph {
+    font-family: "Roboto";
+}
+.button {
     height: 36px;
-    width:138px;
-    background-color:blue;
+    width: 138px;
+    background-color: #25b1cc;
     color: white;
-    border-radius: 24px;
+    border-radius: 20px;
     border-width: 0px;
 }
