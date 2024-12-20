@@ -13,15 +13,17 @@
   font-size: 28px;
   font-weight: bold;
   padding: 24px;
+  text-align: center;
 }
 
 .favourite-place-card-container {
   background-color: white;
   border-radius: 8px;
   padding: 16px;
-  margin: 15px;
-  width: 100vw;
-  margin-right: 30px;
+  margin-left: 80px;
+  margin-bottom: 15px;
+  width: 90vw;
+  margin-right: 80px;
 }
 
 .favourite-place-card-heading {
